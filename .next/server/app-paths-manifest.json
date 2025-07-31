@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/api/brand/route": "app/api/brand/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/image/route": "app/api/image/route.js",
+  "/api/feature/route": "app/api/feature/route.js",
+  "/api/city/route": "app/api/city/route.js",
+  "/api/city/neighborhood/route": "app/api/city/neighborhood/route.js"
+}

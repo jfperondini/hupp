@@ -1,0 +1,712 @@
+{
+  "account": [
+    {
+      "id": "4ba80546-4d8b-47d0-b647-fda889ee1b4f",
+      "email": "user@hupp.com",
+      "password": "$2a$10$MC1jQmf9qgnA2R.2yapfE.a4hsVH3ybW7QJNVhEwLVAHZb4GSOmqO"
+    },
+    {
+      "id": "ea6a9131-3863-40e5-a0bf-210e68c48aea",
+      "email": "user@example.com",
+      "password": "$2a$10$BYw9PnfvWjPdEiOVNNLi1eQr.ezcRhtp28C1RUDt/kFvNP2vcVUq6"
+    }
+  ],
+  "user": [
+    {
+      "id": "4ba80546-4d8b-47d0-b647-fda889ee1b4f",
+      "email": "user@hupp.com",
+      "firstName": "John",
+      "lastName": "Hupp"
+    },
+    {
+      "id": "ea6a9131-3863-40e5-a0bf-210e68c48aea",
+      "email": "user@example.com",
+      "firstName": "John",
+      "lastName": "Piron"
+    }
+  ],
+  "brand": {
+    "name": "Hupp",
+    "logo": 1,
+    "tagline": "Discover Vancouver with the wind in your face and away from the queues of cars",
+    "description": "A bike-sharing service that allows users to rent bikes for a day or by the hour",
+    "img": 19,
+    "redline": "Reinvented mobility, designed for everyone",
+    "copyright": "®2024 | Hupp – Shared bike solution. All rights reserved",
+    "contact": {
+      "email": "info@hupp.com",
+      "phone": "1-800-HUPP-BIKE",
+      "address": "123 Main St, Vancouver, BC V6A 2S5",
+      "customerSupport": {
+        "email": "support@hupp.com",
+        "phone": "1-800-HUPP-BIKE"
+      }
+    }
+  },
+  "feature": [
+    {
+      "id": 1,
+      "slogan": "Rediscover your city from a new perspective",
+      "tagline": "One pedal at a time",
+      "detail": [
+        {
+          "title": "Map",
+          "description": "Find a station near you quickly and easily"
+        },
+        {
+          "title": "Station",
+          "description": "Find a station near you quickly and easily"
+        },
+        {
+          "title": "QR Code",
+          "description": "Unlock your bike in seconds, no codes needed"
+        },
+        {
+          "title": "Timer",
+          "description": "Track the duration of your trip in real-time"
+        },
+        {
+          "title": "History",
+          "description": "View your complete trip history"
+        }
+      ],
+      "img": [
+        18
+      ]
+    },
+    {
+      "id": 2,
+      "slogan": "Ride free, ride easy, ride with confidence",
+      "tagline": "Experience the ultimate comfort and convenience of our bikes",
+      "detail": [
+        {
+          "title": "Customized Comfort",
+          "description": "Adjust the seat height to fit your perfect ride, and enjoy a comfortable journey tailored to you"
+        },
+        {
+          "title": "Effortless Riding",
+          "description": "Get a boost from our eco-friendly motor assist, and ride further with less effort"
+        },
+        {
+          "title": "Seamless Experience",
+          "description": "Unlock your bike with ease, and get moving quickly with our hassle-free system"
+        },
+        {
+          "title": "Safety First",
+          "description": "Stay visible and safe on the road with our bright LED lights that illuminate your path"
+        }
+      ],
+      "img": [
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "slogan": "Our partners",
+      "tagline": "Join the movement. Believe in the power of the bike to transform our cities. Partner with us to co-create a better urban future, one pedal stroke at a time",
+      "detail": [
+        {
+          "title": "Vancouver City",
+          "description": "Partnering with the City of Vancouver to promote sustainable transportation"
+        },
+        {
+          "title": "TransLink",
+          "description": "Partnering with TransLink to integrate Hupp with public transportation"
+        },
+        {
+          "title": "UBC",
+          "description": "Partnering with the University of British Columbia to promote sustainable transportation for students and staff"
+        },
+        {
+          "title": "Vancouver Aquarium",
+          "description": "Partnering with the Vancouver Aquarium to promote eco-friendly transportation and support marine conservation"
+        },
+        {
+          "title": "Lululemon",
+          "description": "Partnering with Lululemon to promote healthy and sustainable living"
+        },
+        {
+          "title": "Whole Foods Market",
+          "description": "Partnering with Whole Foods Market to promote sustainable transportation and healthy living"
+        },
+        {
+          "title": "BC Hydro",
+          "description": "Partnering with BC Hydro to promote sustainable transportation and reduce carbon emissions"
+        },
+        {
+          "title": "Tim Hortons",
+          "description": "Collaborating with Tim Hortons to enhance community engagement and promote local sustainability initiatives"
+        },
+        {
+          "title": "Royal Bank of Canada",
+          "description": "Partnering with the Royal Bank of Canada to support financial literacy and community development initiatives"
+        }
+      ],
+      "img": [
+        16,
+        13,
+        14,
+        15,
+        10,
+        17,
+        9,
+        12,
+        11
+      ]
+    },
+    {
+      "id": 4,
+      "slogan": "Redefine the way you explore",
+      "tagline": "",
+      "detail": [
+        {
+          "title": "+480",
+          "description": "Bikes"
+        },
+        {
+          "title": "+40",
+          "description": "Stations"
+        }
+      ],
+      "img": [
+        2,
+        20
+      ]
+    }
+  ],
+  "pricing": {
+    "payPerRide": {
+      "perMinute": 1,
+      "perMinuteRate": 0.29,
+      "timeLimit": {
+        "maxTime": 3,
+        "description": "Minimum rental time of minutes"
+      }
+    },
+    "systemSetting": {
+      "currency": "CAD",
+      "taxes": {
+        "gst": 0.05,
+        "pst": 0.07
+      }
+    }
+  },
+  "paymentOption": [
+    {
+      "id": 1,
+      "name": "Visa",
+      "type": "debitAndCredit",
+      "img": 8
+    },
+    {
+      "id": 2,
+      "name": "Mastercard",
+      "type": "debitAndCredit",
+      "img": 7
+    },
+    {
+      "id": 3,
+      "name": "American Express",
+      "type": "debitAndCredit",
+      "img": 4
+    },
+    {
+      "id": 4,
+      "name": "Apple Pay",
+      "type": "digitalWallets",
+      "img": 5
+    },
+    {
+      "id": 5,
+      "name": "Google Pay",
+      "type": "digitalWallet",
+      "img": 6
+    }
+  ],
+  "bikeType": [
+    {
+      "id": 1,
+      "type": "electric",
+      "description": "Electric bicycle",
+      "img": [
+        4
+      ]
+    }
+  ],
+  "image": [
+    {
+      "id": 1,
+      "name": "bear.png",
+      "url": "http://localhost:3000/img/logo/bear.png",
+      "alt": "bear.png"
+    },
+    {
+      "id": 2,
+      "name": "bicycles-parked-station.jpg",
+      "url": "http://localhost:3000/img/ui/bicycles-parked-station.jpg",
+      "alt": "bicycles-parked-station"
+    },
+    {
+      "id": 3,
+      "name": "eletric-bike.jpg",
+      "url": "http://localhost:3000/img/eletricBike/eletric-bike.png",
+      "alt": "eletric-bike"
+    },
+    {
+      "id": 4,
+      "name": "american-express.png",
+      "url": "http://localhost:3000/img/paymentOption/american-express.png",
+      "alt": "american-express"
+    },
+    {
+      "id": 5,
+      "name": "apple-pay.png",
+      "url": "http://localhost:3000/img/paymentOption/apple-pay.png",
+      "alt": "apple-pay"
+    },
+    {
+      "id": 6,
+      "name": "google-pay.png",
+      "url": "http://localhost:3000/img/paymentOption/google-pay.png",
+      "alt": "google-pay"
+    },
+    {
+      "id": 7,
+      "name": "mastercard.png",
+      "url": "http://localhost:3000/img/paymentOption/mastercard.png",
+      "alt": "mastercard"
+    },
+    {
+      "id": 8,
+      "name": "visa.png",
+      "url": "http://localhost:3000/img/paymentOption/visa.png",
+      "alt": "visa"
+    },
+    {
+      "id": 9,
+      "name": "bc-hydro.png",
+      "url": "http://localhost:3000/img/logo/bc-hydro.png",
+      "alt": "bc-hydro"
+    },
+    {
+      "id": 10,
+      "name": "lululemon.png",
+      "url": "http://localhost:3000/img/logo/lululemon.png",
+      "alt": "lululemon"
+    },
+    {
+      "id": 11,
+      "name": "royal-bank-of-canada.png",
+      "url": "http://localhost:3000/img/logo/royal-bank-of-canada.png",
+      "alt": "royal-bank-of-canada"
+    },
+    {
+      "id": 12,
+      "name": "tim-hortons.png",
+      "url": "http://localhost:3000/img/logo/tim-hortons.png",
+      "alt": "tim-hortons"
+    },
+    {
+      "id": 13,
+      "name": "translink.png",
+      "url": "http://localhost:3000/img/logo/translink.png",
+      "alt": "translink"
+    },
+    {
+      "id": 14,
+      "name": "ubc.jpg",
+      "url": "http://localhost:3000/img/logo/ubc.jpg",
+      "alt": "ubc"
+    },
+    {
+      "id": 15,
+      "name": "vancouver-aquarium.png",
+      "url": "http://localhost:3000/img/logo/vancouver-aquarium.png",
+      "alt": "vancouver-aquarium"
+    },
+    {
+      "id": 16,
+      "name": "vancouver-city.png",
+      "url": "http://localhost:3000/img/logo/vancouver-city.png",
+      "alt": "vancouver-city"
+    },
+    {
+      "id": 17,
+      "name": "whole-foods-market.png",
+      "url": "http://localhost:3000/img/logo/whole-foods-market.png",
+      "alt": "whole-foods-market"
+    },
+    {
+      "id": 18,
+      "name": "phone.png",
+      "url": "http://localhost:3000/img/ui/phone.png",
+      "alt": "phone"
+    },
+    {
+      "id": 19,
+      "name": "vancouver.jpg",
+      "url": "http://localhost:3000/img/ui/vancouver.jpg",
+      "alt": "vancouver"
+    },
+    {
+      "id": 20,
+      "name": "long-rage-bike.jpg",
+      "url": "http://localhost:3000/img/ui/long-rage-bike.jpg",
+      "alt": "long-rage-bike"
+    }
+  ],
+  "city": [
+    {
+      "id": 1,
+      "name": "Vancouver",
+      "description": "See where our stations are in Downtown Vancouver",
+      "img": 2,
+      "neighborhood": [
+        {
+          "id": 1,
+          "name": "Downtown Vancouver",
+          "description": "The central business district of Vancouver, featuring a mix of office buildings, shopping centers, and restaurants",
+          "boundarie": {
+            "north": 49.2832,
+            "south": 49.2745,
+            "east": -123.1109,
+            "west": -123.1303
+          },
+          "pointsOfInterest": [
+            "Shopping centers",
+            "Restaurants",
+            "Entertainment"
+          ],
+          "recommendation": {
+            "specificPointsOfInterest": [
+              "Vancouver Art Gallery",
+              "Robson Street",
+              "Vancouver Aquarium"
+            ],
+            "eventsAndFestivals": [
+              "Vancouver International Jazz Festival",
+              "Vancouver Pride",
+              "Vancouver Christmas Market"
+            ]
+          },
+          "bikeStation": [
+            {
+              "id": 1,
+              "name": "Bike Share Station 1",
+              "location": {
+                "lat": 49.2827,
+                "lng": -123.1207
+              },
+              "totalQuantity": 10,
+              "availableQuantity": 1,
+              "address": "123 Main St, Vancouver, BC V6A 2S5"
+            },
+            {
+              "id": 2,
+              "name": "Bike Share Station 2",
+              "location": {
+                "lat": 49.2853,
+                "lng": -123.1256
+              },
+              "totalQuantity": 15,
+              "availableQuantity": 9,
+              "address": "456 Granville St, Vancouver, BC V6C 1T1"
+            },
+            {
+              "id": 3,
+              "name": "Bike Share Station 3",
+              "location": {
+                "lat": 49.2882,
+                "lng": -123.1295
+              },
+              "totalQuantity": 12,
+              "availableQuantity": 6,
+              "address": "789 Hastings St, Vancouver, BC V6C 2R7"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Gastown",
+          "description": "Vancouver's oldest neighborhood, known for its cobblestone streets, independent boutiques, and trendy restaurants",
+          "boundarie": {
+            "north": 49.2858,
+            "south": 49.2771,
+            "east": -123.1142,
+            "west": -123.1295
+          },
+          "pointsOfInterest": [
+            "Independent boutiques",
+            "Trendy restaurants",
+            "Nightlife"
+          ],
+          "recommendation": {
+            "specificPointsOfInterest": [
+              "Gastown Steam Clock",
+              "Guu with Garlic",
+              "Irish Heather"
+            ],
+            "historyAndCulture": [
+              "Gastown's early history",
+              "The Great Vancouver Fire",
+              "Gastown's role in Vancouver's development"
+            ]
+          },
+          "bikeStation": [
+            {
+              "id": 4,
+              "name": "Bike Share Station 4",
+              "location": {
+                "lat": 49.2832,
+                "lng": -123.1109
+              },
+              "totalQuantity": 8,
+              "availableQuantity": 5,
+              "address": "1010 W Georgia St, Vancouver, BC V6E 2Y2"
+            },
+            {
+              "id": 5,
+              "name": "Bike Share Station 5",
+              "location": {
+                "lat": 49.2858,
+                "lng": -123.1142
+              },
+              "totalQuantity": 10,
+              "availableQuantity": 8,
+              "address": "1150 W Pender St, Vancouver, BC V6E 2V4"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Yaletown",
+          "description": "A former industrial area turned trendy neighborhood, featuring converted warehouses, trendy restaurants, and boutiques",
+          "boundarie": {
+            "north": 49.2892,
+            "south": 49.2815,
+            "east": -123.1245,
+            "west": -123.1398
+          },
+          "pointsOfInterest": [
+            "Trendy restaurants",
+            "Boutiques",
+            "Nightlife"
+          ],
+          "recommendation": {
+            "specificPointsOfInterest": [
+              "Yaletown Brewing Company",
+              "The Distillery",
+              "Yaletown Farmers Market"
+            ],
+            "nightlife": [
+              "Bars",
+              "Clubs",
+              "Lounges"
+            ]
+          },
+          "bikeStation": [
+            {
+              "id": 6,
+              "name": "Bike Share Station 6",
+              "location": {
+                "lat": 49.2745,
+                "lng": -123.1211
+              },
+              "totalQuantity": 12,
+              "availableQuantity": 4,
+              "address": "1500 W Broadway, Vancouver, BC V6J 1W6"
+            },
+            {
+              "id": 7,
+              "name": "Bike Share Station 7",
+              "location": {
+                "lat": 49.2771,
+                "lng": -123.1245
+              },
+              "totalQuantity": 15,
+              "availableQuantity": 15,
+              "address": "1800 W 4th Ave, Vancouver, BC V6J 1M4"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Coal Harbour",
+          "description": "A waterfront neighborhood located near Stanley Park, featuring a mix of residential and commercial buildings",
+          "boundarie": {
+            "north": 49.2932,
+            "south": 49.2855,
+            "east": -123.1265,
+            "west": -123.1418
+          },
+          "pointsOfInterest": [
+            "Waterfront views",
+            "Stanley Park",
+            "Outdoor activities"
+          ],
+          "recommendation": {
+            "specificPointsOfInterest": [
+              "Coal Harbour Seawall",
+              "Vancouver Maritime Museum",
+              "Stanley Park Brewing Company"
+            ],
+            "outdoorActivities": [
+              "Kayaking",
+              "Paddleboarding",
+              "Cycling"
+            ]
+          },
+          "bikeStation": [
+            {
+              "id": 8,
+              "name": "Bike Share Station 8",
+              "location": {
+                "lat": 49.2913,
+                "lng": -123.1303
+              },
+              "totalQuantity": 10,
+              "availableQuantity": 3,
+              "address": "2200 W 4th Ave, Vancouver, BC V6K 1N8"
+            },
+            {
+              "id": 9,
+              "name": "Bike Share Station 9",
+              "location": {
+                "lat": 49.2939,
+                "lng": -123.1335
+              },
+              "totalQuantity": 12,
+              "availableQuantity": 12,
+              "address": "2500 W Broadway, Vancouver, BC V6K 2E9"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Chinatown Vancouver",
+          "description": "One of the largest Chinatowns in North America, featuring a vibrant cultural scene, delicious Chinese cuisine, and unique shops",
+          "boundarie": {
+            "north": 49.2792,
+            "south": 49.2715,
+            "east": -123.1035,
+            "west": -123.1188
+          },
+          "pointsOfInterest": [
+            "Cultural attractions",
+            "Chinese cuisine",
+            "Unique shops"
+          ],
+          "recommendation": {
+            "specificPointsOfInterest": [
+              "Dr. Sun Yat-Sen Classical Chinese Garden",
+              "Chinese Cultural Centre",
+              "Chinatown Night Market"
+            ],
+            "culture": [
+              "Chinatown's history",
+              "Chinese traditions",
+              "Cultural events"
+            ]
+          },
+          "bikeStation": [
+            {
+              "id": 10,
+              "name": "Bike Share Station 10",
+              "location": {
+                "lat": 49.2793,
+                "lng": -123.1039
+              },
+              "totalQuantity": 10,
+              "availableQuantity": 6,
+              "address": "1000 W 12th Ave, Vancouver, BC V5Z 1M9"
+            },
+            {
+              "id": 11,
+              "name": "Bike Share Station 11",
+              "location": {
+                "lat": 49.2819,
+                "lng": -123.1063
+              },
+              "totalQuantity": 12,
+              "availableQuantity": 10,
+              "address": "1200 W 14th Ave, Vancouver, BC V5Z 1P1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "West End",
+          "description": "A diverse neighborhood featuring a mix of residential and commercial buildings, with a vibrant LGBTQ+ community",
+          "boundarie": {
+            "north": 49.2862,
+            "south": 49.2785,
+            "east": -123.1345,
+            "west": -123.1498
+          },
+          "pointsOfInterest": [
+            "Diverse community",
+            "Restaurants",
+            "Bars"
+          ],
+          "recommendation": {
+            "specificPointsOfInterest": [
+              "Davie Village",
+              "West End Farmers Market",
+              "English Bay Beach"
+            ],
+            "community": [
+              "LGBTQ+ community",
+              "Cultural events",
+              "Community organizations"
+            ]
+          },
+          "bikeStation": [
+            {
+              "id": 12,
+              "name": "Bike Share Station 12",
+              "location": {
+                "lat": 49.2863,
+                "lng": -123.1395
+              },
+              "totalQuantity": 10,
+              "availableQuantity": 6,
+              "address": "1500 W 16th Ave, Vancouver, BC V5Z 1S4"
+            },
+            {
+              "id": 13,
+              "name": "Bike Share Station 13",
+              "location": {
+                "lat": 49.2891,
+                "lng": -123.1427
+              },
+              "totalQuantity": 12,
+              "availableQuantity": 133,
+              "address": "1800 W 18th Ave, Vancouver, BC V5Z 1T1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bikeReservation": [
+    {
+      "id": "44e075b0-2f4b-4aca-8b9f-8df9adcf247b",
+      "userId": "4ba80546-4d8b-47d0-b647-fda889ee1b4f",
+      "bikeStationId": 13,
+      "quantity": 2,
+      "startTime": "2025-01-08T15:00:29.827",
+      "endTime": "2025-01-08T15:03:29.827"
+    }
+  ],
+  "payment": [
+    {
+      "id": "af8e29c4-d359-49f0-b1fa-e4cdf455399b",
+      "idBikeReservation": "44e075b0-2f4b-4aca-8b9f-8df9adcf247b",
+      "paymentOption": "1",
+      "minutesPassed": 99,
+      "totalPayMinutesPassed": 57.42,
+      "totalPayForRide": 6,
+      "totalPayTaxes": 7.61
+    }
+  ]
+}
